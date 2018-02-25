@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lessons", "Lessons", "{9676164A-4A70-45CD-A0CF-3CE645B47684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E1871C7F-CAD3-4356-9369-ACABDE5F6F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternLesson", "ProxyPatternLesson\ProxyPatternLesson.csproj", "{EED3BB45-E28B-4570-8658-E4C6E9959295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternTests", "ProxyPatternTests\ProxyPatternTests.csproj", "{7E01C919-CD24-4098-BD34-CDEF5D880315}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EED3BB45-E28B-4570-8658-E4C6E9959295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EED3BB45-E28B-4570-8658-E4C6E9959295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EED3BB45-E28B-4570-8658-E4C6E9959295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EED3BB45-E28B-4570-8658-E4C6E9959295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E01C919-CD24-4098-BD34-CDEF5D880315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E01C919-CD24-4098-BD34-CDEF5D880315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E01C919-CD24-4098-BD34-CDEF5D880315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E01C919-CD24-4098-BD34-CDEF5D880315}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EED3BB45-E28B-4570-8658-E4C6E9959295} = {9676164A-4A70-45CD-A0CF-3CE645B47684}
+		{7E01C919-CD24-4098-BD34-CDEF5D880315} = {E1871C7F-CAD3-4356-9369-ACABDE5F6F7F}
+	EndGlobalSection
+EndGlobal
